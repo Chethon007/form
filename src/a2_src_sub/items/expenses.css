@@ -1,0 +1,11 @@
+.expenses{
+    
+   flex-direction: column;
+    padding: 2rem;
+    margin: 3rem auto;
+   
+    background-color: #ebe3e3ad;
+    width: 50rem;
+    max-width: 95%;
+
+}

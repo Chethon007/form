@@ -1,0 +1,37 @@
+.dmy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.25);
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+    background-color: #2ccbe06b;
+
+}
+.d{
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;  /*horizent*/
+  justify-content: flex-start; /*vertical*/ 
+  flex: 1;
+}
+.m{
+   padding: 5px;
+    font-size: 1rem;
+    color: red;
+    flex: 1;
+    margin: 0px 1rem;
+     
+}
+
+.y{
+   
+    border-radius: 12px;
+    padding: 0.5rem;
+    border: 3px solid whitesmoke;
+    background-color: lightgreen;
+    color: black;
+    font-weight: bolder;
+}

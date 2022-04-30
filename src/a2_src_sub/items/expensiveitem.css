@@ -1,0 +1,50 @@
+.ex{
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.5rem;
+    margin: 1rem 0;
+  
+    background-color: #4b4b4b;
+
+}
+.exdes{
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;  /*horizent*/
+  justify-content: flex-start; /*vertical*/ 
+  flex: 1;
+}
+h2{
+    color: #3a3a3a;
+    font-size: 1rem;
+    color: white;
+    flex: 1;
+    margin: 0px 1rem;
+     
+}
+
+.exprice{
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+
+    border-radius: 12px;
+    padding: 0.5rem;
+    border: 3px solid whitesmoke;
+    background-color: lightgreen;
+    color: black;
+    font-weight: bolder;
+}
+
+@media (min-width : 220px ) {
+    .exdes{
+        flex-direction : row ;
+        align-items:center;
+        justify-content : flex-start ;
+        flex :1 ;
+
+
+    }
+}
